@@ -2,15 +2,15 @@ package pl.sda.javastart.day2;
 
 public class Arrays2d {
     public static void main(String[] args) {
-       fillArrayWithNummebers_2();
-        // printGrid(2,2);
+      fillArrayWithNummebers_2();
+         //printGrid(2,2);
     }
 
     public static void printGrid(int n, int m) {
          int [] [] array = new int [n] [m];
          for (int i=0; i<n; i++){
              for (int j =0; j<m; j++){
-                 System.out.println(array[i] [j]+ " ");
+                 System.out.print(array[i] [j]+ " ");
              }
              System.out.println();
          }
@@ -24,7 +24,7 @@ public class Arrays2d {
                 if(i==j){
                     ints[i][j]=i;
                 }
-                System.out.println(ints[i][j]+" ");
+                System.out.print(ints[i][j]+" ");
             }
             System.out.println();
         }

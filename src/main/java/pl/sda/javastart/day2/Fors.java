@@ -4,10 +4,11 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 
 public class Fors {
     public static void main(String[] args) {
-        fibunacci(5);
+       // fibunacci(5);
         /* tenTimeHellowWorld();*/
         //printFewNaturalNumber(12,34);
-        //printFewNaturalNumber2(1, 10);
+       // printFewNaturalNumber2(1, 10);
+        nowy(5);
         // countdown(10);
 
     }

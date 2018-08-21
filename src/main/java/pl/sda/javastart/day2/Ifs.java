@@ -7,10 +7,10 @@ public class Ifs {
         System.out.println(answerCell(false,true,true));
         System.out.println(answerCell(true,true,false));
         System.out.println(answerCell(false,true,false));
-        /*boolean result=positiveOrNot(2);
+        boolean result=positiveOrNot(2);
         System.out.println("Czy liczba 2 jest większa od zera?"+result);
         boolean anotherResult=positiveOrNot(-2);
-        System.out.println("Czy liczba -2 jest większa od zera"+anotherResult);*/
+        System.out.println("Czy liczba -2 jest większa od zera"+anotherResult);
     }
 
     public static boolean positiveOrNot(int value) {

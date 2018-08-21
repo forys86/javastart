@@ -36,17 +36,23 @@ public class Kalkulator {
         }
 
 
-    public static int adder(int a, int secondValve){
-        int result = a + secondValve;
+    public int add(int a,int b){
+        return a + b;
+    }
+
+    public static double multiplier(double a, double b) {
+        return a * b;
+    }
+
+
+    public static int adder(int a, int secondValue) {
+        int result = a + secondValue;
         return result;
     }
-    public static double adder (double a, double secondValve) {
-        double result =a + secondValve;
+
+    public static double adder(double a, double secondValue) {
+        double result = a + secondValue;
         return result;
-
-
     }
-    public static void multipiler(double a, double b){
 
-    }
 }

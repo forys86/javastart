@@ -5,8 +5,9 @@ import java.util.Scanner;
 
 public class ArraysExample {
     public static void main(String[] args) {
-        printArray(5, 10);
-        //printNamesWithComa();
+      //  printArray(5, 5);
+        printNamesWithComa();
+        //sumElementsOfArray();
     }
 
     private static void printNamesWithComa() {
@@ -29,7 +30,7 @@ public class ArraysExample {
 
         int[] arrays = new int[arraysSize < elements ? elements : arraysSize];
 
-        for (int i = 0; i <= elements; i++) {
+        for (int i = 0; i < elements; i++) {
             arrays[i] = 7;
         }
         for (int array : arrays) {
